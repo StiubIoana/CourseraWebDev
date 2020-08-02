@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+    padding-top: 75px;
+}
+
+#header-nav {
+    background-color: rgb(193, 137, 216);
+    border: 2px solid black;
+    box-shadow: 0.5px aliceblue;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+h1 {
+    position: relative;
+    margin-left: 0;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px white;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    #navbarMenu {
+        visibility: hidden;
+    }
+}
+
+h2 {
+    margin-top: 35px;
+    font-size: 2.5em;
+    color: rgb(196, 93, 173);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(201, 12, 116);
+}
+
+#cols {
+    border: 1px solid black;
+    height: 700px;
+    margin: 0px 0px 15px 0px;
+}
+
+.row :nth-child(1) {
+    background-color: rgb(193, 137, 216);
+}
+.row :nth-child(2) {
+    background-color: rgb(193, 137, 216);
+}
+.row :nth-child(3) {
+    background-color: rgb(193, 137, 216);
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 2em;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px aliceblue;
+}
+
+#text {
+    padding: 10px 25px 10px 25px;
+    background-color: inherit;
+    font-size: 1.3em;
+}
+
+#cont {
+    margin-top: 25px;
+}
+
+#my-item {
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+#navbarMenu {
+    background-color: pink;
+    margin: 0px -15px 0px -15px;
+}
+
+#my-bottom {
+    margin: auto auto 0px auto;
+    font-size: 1.3em;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    bottom: 0px;
+}
